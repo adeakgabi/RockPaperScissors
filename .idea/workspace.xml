@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../DevMa/huli-devma" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Huli/huli/TeachingMaterialQueryService" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../JWT/springboot-auth-updated" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../PatientPatientApp/patientpatientapp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Tribes/megalotis-aragonite" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../adeakgabi/week-08/day-03/finder" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../heroku/hosting-heroku-java" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QmEIDyj9ycuSY8MZnNue219UtV" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+</project>
