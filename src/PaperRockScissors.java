@@ -1,29 +1,27 @@
 import java.util.Scanner;
 
 public class PaperRockScissors {
+  private static boolean play = true;
 
   public static void main(String[] args) {
 
-    Shape inputShape = askUserForInput();
-    Shape randomShape = Shape.randomShape();
+    Shape inputShape;
+    Shape randomShape;  //ezt kivenni, ne legyen elmentve változóba
 
-    while (inputShape == null) {
+    while (play) {
       inputShape = askUserForInput();
+      randomShape = Shape.randomShape();  //ez nem kell
+      System.out.println(playRockPaperScissorsGame(inputShape, randomShape));
+      System.out.println("Your answer: " + inputShape);
+      System.out.println("The computer's answer: " + randomShape);
     }
-
-    System.out.println(playRockPaperScissorsGame(inputShape, randomShape));
-
-    System.out.println("You: " + inputShape);
-    System.out.println("The computer: " + randomShape);
-
   }
 
   public static Shape askUserForInput() {
+    System.out.println("Type one of the followings: Rock, Paper, or Scissors! " +
+            "If you would like to quit the game, type exit");
     Scanner scanner = new Scanner(System.in);
-    String userInput;
-
-    System.out.println("Type one of the followings: Rock, Paper, or Scissors!");
-    userInput = scanner.nextLine().toUpperCase();
+    String userInput = scanner.nextLine().toUpperCase();
 
     if(userInput.equals("EXIT")) {
       System.out.println("Thank you for the game!");
@@ -34,18 +32,18 @@ public class PaperRockScissors {
       return Shape.valueOf(userInput);
     } catch ( IllegalArgumentException e ) {
       System.err.println( "Wrong input, please type one of the followings: Rock, Paper, or Scissors!" );
-      return null;
+      return askUserForInput();
     }
   }
 
   public static String playRockPaperScissorsGame(Shape user, Shape computer) {
     if(user == computer) {
-      return "It's a tie!";
+      return "It's a tie! Try again!";
     }
-    if(user.losesAgainst.equals(computer.toString())) {
-      return "Sorry, you lost the game, try again!";
+    if(user.winsAgainst.equalsIgnoreCase(computer.toString())) {
+      return "Nice one, you won: " + user.message;
     } else {
-      return "Nice one! You won!";
+      return "Sorry, you lost the game: " + computer.message + ". Try again!";
     }
   }
 }

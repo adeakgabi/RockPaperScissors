@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2819c492-9245-48f0-b0c5-d6dca2f429b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RockPaperScissors/PaperRockScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RockPaperScissors/PaperRockScissors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RockPaperScissors/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RockPaperScissors/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaperRockScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568367290238</updated>
-      <workItem from="1568367304074" duration="9408000" />
+      <workItem from="1568367304074" duration="10042000" />
+      <workItem from="1568618736981" duration="6791000" />
     </task>
     <servers />
   </component>
@@ -81,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
